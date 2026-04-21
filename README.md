@@ -1,3 +1,4 @@
+
 # Projeto - Cidades ESG Inteligentes
 
 Este projeto foi desenvolvido como atividade pratica de DevOps, com foco em **containerizacao** e **pipeline de CI/CD**.
@@ -83,14 +84,19 @@ esg-smartcity-devops/
 
 ## Prints do funcionamento
 
-### Ja disponivel
-- Execucao local com Docker (API + banco)
 
-### Ainda sera adicionado
-- Print do pipeline rodando build e testes
-- Print do deploy em **staging**
-- Print do deploy em **producao**
-- Print da aplicacao funcionando em cada ambiente
+<img width="1396" height="992" alt="docker_compose" src="https://github.com/user-attachments/assets/343fd2e9-8ec3-4a95-883d-dd56986dec8b" />
+
+
+<img width="1902" height="745" alt="pipeline_build" src="https://github.com/user-attachments/assets/04cfe2fd-b441-4b45-932d-7469dfa51d02" />
+
+
+<img width="1424" height="1018" alt="docker_db" src="https://github.com/user-attachments/assets/d716ff56-e18c-41ce-a665-e291c957c0da" />
+
+
+
+<img width="1409" height="1016" alt="mvn_test" src="https://github.com/user-attachments/assets/ef41af4c-53e2-4954-9649-176c57b5e1e4" />
+
 
 ## Tecnologias utilizadas
 
