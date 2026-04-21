@@ -1,0 +1,5 @@
+com\esg\model\Report.class
+com\esg\EsGApplication.class
+com\esg\service\ESGService.class
+com\esg\controller\ESGController.class
+com\esg\repository\ReportRepository.class
