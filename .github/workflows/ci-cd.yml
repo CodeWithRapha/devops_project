@@ -29,3 +29,30 @@ jobs:
 
   - name: Docker Build
     run: docker build -t esg-api .
+
+
+
+deploy-staging:
+  runs-on: ubuntu-latest
+  needs: build
+  if: github.ref == 'refs/heads/develop'
+
+  steps:
+    - name: Deploy no servidor staging via SSH
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.STAGING_HOST }}
+        username: ${{ secrets.STAGING_USER }}
+        key: ${{ secrets.STAGING_SSH_KEY }}
+        script: |
+          cd /opt/esg-smartcity
+          git pull origin develop
+          cat > .env << EOF
+          DB_HOST=${{ secrets.STAGING_DB_HOST }}
+          DB_USER=${{ secrets.STAGING_DB_USER }}
+          DB_PASSWORD=${{ secrets.STAGING_DB_PASSWORD }}
+          DB_NAME=${{ secrets.STAGING_DB_NAME }}
+          EOF
+          docker-compose down
+          docker-compose up --build -d
+          docker image prune -f
