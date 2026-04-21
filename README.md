@@ -108,17 +108,6 @@ esg-smartcity-devops/
 - Docker Compose
 - GitHub Actions
 
-## Documentacao da entrega (PDF ou PPT)
-
-### Ainda sera feita
-O documento final (PDF ou PPT) vai conter:
-- Titulo do projeto e integrantes
-- Descricao do pipeline (ferramenta, etapas e logica)
-- Arquitetura Docker e comandos usados
-- Prints do pipeline (build, testes e deploy)
-- Prints de staging e producao
-- Desafios e solucoes adotadas
-
 ## Checklist de entrega
 
 | Item | Status |
