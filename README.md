@@ -120,6 +120,3 @@ esg-smartcity-devops/
 | Documentacao tecnica com evidencias (PDF ou PPT) | ☐ Pendente |
 | Deploy realizado nos ambientes staging e producao | ☐ Pendente |
 
-## Observacao importante
-
-Antes da entrega final/publicacao, revisar o `.env.example` para garantir que ele tenha apenas **valores de exemplo** (sem credenciais reais).
