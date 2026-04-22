@@ -112,11 +112,11 @@ esg-smartcity-devops/
 
 | Item | Status |
 |---|---|
-| Projeto compactado em .ZIP com estrutura organizada | ☐ Pendente |
+| Projeto compactado em .ZIP com estrutura organizada | ☑ OK |
 | Dockerfile funcional | ☑ OK |
 | docker-compose.yml ou arquivos Kubernetes | ☑ OK |
-| Pipeline com etapas de build, teste e deploy | ☐ Pendente (falta deploy) |
-| README.md com instrucoes e prints | ☐ Parcial (faltam prints) |
-| Documentacao tecnica com evidencias (PDF ou PPT) | ☐ Pendente |
-| Deploy realizado nos ambientes staging e producao | ☐ Pendente |
+| Pipeline com etapas de build, teste e deploy | ☑ OK |
+| README.md com instrucoes e prints | ☑ OK |
+| Documentacao tecnica com evidencias PDF | ☑ OK |
+| Deploy realizado nos ambientes staging e produção | ☑ OK |
 
